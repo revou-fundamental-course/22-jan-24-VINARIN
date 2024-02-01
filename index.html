@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Groceries</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-color: rgb(3, 22, 41);">
+    <nav class="navbar">
+        <div class="logo">
+          <img src="assets/ravilogot.png" alt="Your logo" height="50" width="50"> </div>
+        <ul class="nav-links">
+          <li><a href="#1">Home</a></li>
+          <li><a href="#2">About</a></li>
+          <li><a href="#3">Contact</a></li>
+        </ul>
+    </nav>
+    <h1 id="1" style="color: azure; font-size: 150%; text-align: center; font-family: verdana;">Top Rated E-Groceries Shop in Indonesia</h1>
+    <h3 style="color: azure; font-size: 100%; text-align: center; font-family: cursive;">Every Day with best ingredients</h3>
+    
+    <div class="container-wrapper">
+      <div class="container1 no-border">
+          <div class="image-container">
+            <img src="assets/sayur.png" alt="Image 1" class="image fade">
+            <img src="assets/spice.jpeg" alt="Image 2" class="image">
+            <img src="assets/kitchen-utensils.jpg" alt="Image 3" class="image">
+          
+          </div>
+          <q style="color:rgb(190, 192, 192); font-size: 13px; text-align: center;">setiap hari beli sayur buah yang fresh di sini</q>
+          <div class="profile-card">
+            <img src="assets/user (1).png" alt="Florence Hughes" class="profile-picture" style="float: left; margin-right: 10px;">
+    <div class="profile-info">
+        <p class="profile-name" style="color: azure; font-size: 11px;">Ibunya Budi</p>
+        <p class="profile-bio" style="color: rgb(190, 192, 192); font-size: 9px; margin-left: 31px;"><i>Ibu Rumah Tangga, 28</i></p><br><hr>
+              <p style="color: azure; font-size: 14px; margin-bottom: 5px;"><b>Revolutionize Your Groceries</b></p> 
+              <div style="display: flex; align-items: center;">
+                  <img src="assets/circle-1.png" width="30px" height="30px">
+                  <span style="color: rgb(190, 192, 192); font-size: 13px; margin-left: 10px;"><b>Shop & Save:</b> Browse aisles, compare prices, and skip checkout lines - all from your couch. Save time, money, and resist impulse buys!</span>
+              </div>
+              <br><br>
+              <div style="display: flex; align-items: center;">
+                  <img src="assets/circle-2.png" width="30px" height="30px">
+                  <span style="color: rgb(190, 192, 192); font-size: 13px; margin-left: 10px;"><b>Find It All:</b> Specialty items, local finds, seasonal delights - your online pantry expands beyond the brick-and-mortar walls. Discover new, exciting options!</span>
+              </div>
+              <br><br>
+              <div style="display: flex; align-items: center;">
+                  <img src="assets/circle-3.png" width="30px" height="30px">
+                  <span style="color: rgb(190, 192, 192); font-size: 13px; margin-left: 10px;"><b>Effortless Delivery:</b> No heavy bags, no traffic jams, just groceries arriving at your door. Choose a convenient time slot and track your order's ETA for ultimate ease.</span>
+              </div>
+           </div>
+          </div><br><br>  
+       </div>
+
+       <div class="container2">
+        <div class="title">Contact Us</div>
+        <div class="desc1">Sales akan menghubungi anda 1x24 jam setelah data kami terima.</div>
+        <form action="#" class="form" id="contactForm">
+          <div class="form-group">
+            <label class="form-label">Your Name:</label>
+            <input type="text" class="form-input" id="nameInput" placeholder="First and last name">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email Address:</label>
+            <input type="email" class="form-input" id="emailInput" placeholder="example@email.com">
+          </div>
+          <div class="form-group">
+            <label class="form-label">What are you interested in?</label>
+            <select class="select" id="interestSelect">
+              <option value="" disabled selected>Select option</option>
+              <option value="penjualan">Sales</option>
+              <option value="layanan_pelanggan">Customer Service</option>
+              <option value="lainnya">Others</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <button class="button" onclick="validateForm()">SEND</button>
+          </div>
+        </form>  
+        <script src="js/script.js"></script>
+       </div>
+
+      
+      
+  </div>
+  <div class="container3">
+    <div id="2" class="package"><b>Our Package</b></div>
+
+  </div><br>
+  <div class="container4">
+    <div class="grid-item"><img src="assets/bulb.png" height="30px" width="30px" alt="Number 1"><p class="nulis">Fresh Vegetable</p><p class="nulisjuga">Sayuran segar langsung dari sumber pertanian terbaik</p></div>
+    <div class="grid-item"><img src="assets/bulb.png" height="30px" width="30px" alt="Number 2"><P class="nulis">Fresh Fruit</P><p class="nulisjuga">Buah dengan kualitas terbaik dari local atau import dan harga yang menarik</p></div>
+    <div class="grid-item"><img src="assets/bulb.png" height="30px" width="30px" alt="Number 3"><p class="nulis">Instant Delivery</p><p class="nulisjuga">Dikirim instan oleh kurir yang telah di-training dengan SOP untuk menjaga kondisi belanjamu</p></div>
+    <div class="grid-item"><img src="assets/star.png" height="30px" width="30px" alt="Number 4"><p class="nulis">Kitchen Ingredient</p><p class="nulisjuga">Bumbu dapur lengkap untuk keperluan masakmu</p></div>
+    <div class="grid-item"><img src="assets/star.png" height="30px" width="30px" alt="Number 5"><p class="nulis">Kitchen Set</p><p class="nulisjuga">Segala jenis alat masak untuk membantu kamu memasak</p></div>
+    <div class="grid-item"><img src="assets/star.png" height="30px" width="30px" alt="Number 6"><p class="nulis">Bunding Set</p><p class="nulisjuga">Bingung masak apa? sudah tersedia paket untuk kamu masak di dapurmu</p></div>
+  </div><br><br> <hr><br>
+  <div>
+   <h2 style="color:azure; text-align: center;">Skip the Lines, Fill Your Fridge. Order Today!</h2>
+   <p class="enddescription">No more crowded aisles, heavy bags, or traffic. Shop online, save time, and enjoy the convenience. Click here to get started!</p>
+   <form>
+    <button class="calltoaction" onclick="showAlert()"><B>GET STARTED</B></button>
+   </form>
+  </div><br><br><hr><br><br>
+  <div style="text-align: center;">
+    <img src="assets/ravilogowhite.png" width="80px" height="80px">
+    <p style="text-align: center; color: rgb(190, 192, 192); font-size: 12px;">Terms of Service &nbsp;&nbsp;Privacy Policy</p>
+    <p style="text-align: center; color: rgb(190, 192, 192); font-size: 12px;">&copy;2024 &nbsp;&nbsp;&nbsp;&nbsp;RAVI</p>
+  </div><hr>
+<div id="3">
+  <nav>
+    <ul class="bar-links">
+      <li><a href="https://www.instagram.com/ravi_arnan/"><img src="assets/instagram.png" width="20px" height="20px"></a></li>
+      <li><a href="https://www.linkedin.com/in/ravi-arnan-irianto-734957277/"><img src="assets/linkedin.png" width="20px" height="20px"></a></li>
+      <li><a href="https://github.com/VINARIN"><img src="assets/github.png" width="20px" height="20px"></a></li>
+    </ul>
+</nav>
+</div>
+</body>
+</html>
