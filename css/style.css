@@ -1,0 +1,223 @@
+body {
+    font-family: Verdana;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    width: 100%;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.nav-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+}
+
+.nav-links a:hover {
+    background-color: #ccc;
+}
+
+.container-wrapper {
+    display: flex;
+}
+
+.container1 {
+    flex: 1;
+    margin-right: 1px; 
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+.container2 {
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.title {
+    color: azure;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.desc1 {
+    color: rgb(190, 192, 192);
+    font-size: 9px;
+    margin-bottom: 30px;
+}
+
+.form {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-label {
+    color: azure;
+    display: block;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.form-input,
+.select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.profile-picture {
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+
+.package {
+    color: rgb(3, 22, 41);
+    background-color: azure;
+    margin: 0px -10px;
+    padding: 50px 0;
+    font-size: 30px;
+    font-family: arial;
+    text-align: center;
+
+}
+
+.container4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .grid-item {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 20px;
+  }
+  
+  .grid-item img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100px;
+  }
+  
+.nulis {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:azure;
+    
+}
+
+.nulisjuga {
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(190, 192, 192);
+}
+
+.enddescription {
+    color: rgb(190, 192, 192);
+    text-align: center;
+    font-size: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 30px;
+}
+
+.calltoaction {
+    display: block;
+    width: 40%;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+
+}
+
+.bar-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  
+}
+
+.bar-links li {
+    margin-right: 15px;
+
+    
+}
+
+.bar-links a {
+    text-decoration: none;
+    color: azure;
+    padding: 5px 10px;
+}
+
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 45vh;
+    overflow: hidden;
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade {
+    opacity: 1;
+}
